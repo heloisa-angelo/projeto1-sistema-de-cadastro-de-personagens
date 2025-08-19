@@ -1,21 +1,21 @@
-class Character {
-    #life
-    constructor(name, type, lifePoints){
-        this.name = name
-        this.type = type
-        this.#life = lifePoints
+class Personagem {
+    #vida
+    constructor(nome, tipo, pontosDeVida){
+        this.nome = nome
+        this.tipo = tipo
+        this.#vida = pontosDeVida
     }
 
-    attack(){
+    atacar(){
         
-        console.log(`${this.name} atacou!`)
+        console.log(`${this.nome} atacou!`)
     }
 
-    showInfo(){
-        console.log(`Nome: ${this.name}:
-            Classe: ${this.type}
-            Pontos de vida: ${this.#life}`)
+    mostrarInfo(){
+        console.log(`Nome: ${this.nome}:
+            Classe: ${this.tipo}
+            Pontos de vida: ${this.#vida}`)
     }
 }
 
-module.exports = Character
+module.exports = Personagem
