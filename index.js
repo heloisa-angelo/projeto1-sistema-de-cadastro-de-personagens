@@ -1,16 +1,16 @@
-const Character = require('./class/Character')
+const Personagem = require('./class/Personagem')
 
-const bucaneiro = new Character('Raven', 'Bucaneiro', 120)
+const bucaneiro = new Personaegm('Raven', 'Bucaneiro', 120)
 
-const guerreira = new Character('Evelin', 'Guerreira', 170)
+const guerreira = new Personagem('Evelin', 'Guerreira', 170)
 
-const arqueiro = new Character('Bia', 'Arqueiro', 60)
+const arqueiro = new Personangem('Bia', 'Arqueiro', 60)
 
-bucaneiro.showInfo()
-bucaneiro.attack()
+bucaneiro.mostrarInfo()
+bucaneiro.atacar()
 
-guerreira.showInfo()
-guerreira.attack()
+guerreira.mostrarInfo()
+guerreira.atacar()
 
-arqueiro.showInfo()
-arqueiro.attack()
+arqueiro.mostarInfo()
+arqueiro.atacar()
