@@ -1,10 +1,10 @@
-const Personagem = require('./class/Personagem')
+const Personagem = require('./Personagem')
 
-const bucaneiro = new Personaegm('Raven', 'Bucaneiro', 120)
+const bucaneiro = new Personagemm('Raven', 'Bucaneiro', 120)
 
 const guerreira = new Personagem('Evelin', 'Guerreira', 170)
 
-const arqueiro = new Personangem('Bia', 'Arqueiro', 60)
+const arqueiro = new Personagem('Bia', 'Arqueiro', 60)
 
 bucaneiro.mostrarInfo()
 bucaneiro.atacar()
@@ -12,5 +12,5 @@ bucaneiro.atacar()
 guerreira.mostrarInfo()
 guerreira.atacar()
 
-arqueiro.mostarInfo()
+arqueiro.mostrarInfo()
 arqueiro.atacar()
