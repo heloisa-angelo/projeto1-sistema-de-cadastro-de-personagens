@@ -1,4 +1,4 @@
-const Personagem = require('./Personagem')
+const Personagem = require('./class/Personagem')
 
 const bucaneiro = new Personagem('Raven', 'Bucaneiro', 120)
 
