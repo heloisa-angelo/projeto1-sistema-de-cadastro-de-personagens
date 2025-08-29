@@ -1,6 +1,6 @@
 const Personagem = require('./Personagem')
 
-const bucaneiro = new Personagemm('Raven', 'Bucaneiro', 120)
+const bucaneiro = new Personagem('Raven', 'Bucaneiro', 120)
 
 const guerreira = new Personagem('Evelin', 'Guerreira', 170)
 
